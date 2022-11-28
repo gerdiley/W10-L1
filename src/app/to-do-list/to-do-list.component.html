@@ -1,0 +1,18 @@
+
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">id</th>
+      <th scope="col">Title</th>
+      <th scope="col">Completed</th>
+
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let item of array, index as i">
+      <td>{{array[i].id}}</td>
+      <td>{{array[i].title}}</td>
+      <td>{{array[i].completed}}</td>
+    </tr>
+  </tbody>
+</table>
